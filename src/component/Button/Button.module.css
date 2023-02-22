@@ -1,12 +1,32 @@
 .button {
   font-family: 'Poppins';
   font-weight: 400;
-  font-size: 24px;
+  padding: 14px 0;
+  background: #e5e5e5;
+  cursor: pointer;
+}
+
+.primary {
+  color: #ffffff;
+  background: #263238;
+  border-radius: 15px;
+  border: none;
+}
+
+.secondary {
+  background: #e5e5e5;
   color: #000000;
   border: 2px solid #263238;
   border-radius: 5px;
-  padding: 14px 0;
+}
+
+.m {
   width: 220px;
-  background: #e5e5e5;
-  cursor: pointer;
+  font-size: 24px;
+}
+
+.l {
+  width: 420px;
+  padding: 28px 0;
+  font-size: 34px;
 }

@@ -10,6 +10,36 @@
 }
 
 .container {
-  width: 1338px;
+  max-width: 1338px;
   margin: 0 auto;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 600px;
+}
+
+.title h1 {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 80px;
+  color: #000;
+  margin-bottom: 40px;
+}
+
+.title p {
+  font-size: 24px;
+  line-height: 36px;
+  color: #8F95A5;
+
+  margin-bottom: 64px;
 }
