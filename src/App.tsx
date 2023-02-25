@@ -5,6 +5,8 @@ import { ReactComponent as LogoSvg } from './assets/main-logo.svg'
 import { ReactComponent as MainSvg } from './assets/main.svg'
 
 import styles from './app.module.css'
+import { Skills } from './component/Skills/Skills'
+import { About } from './component/About/About'
 
 function App() {
   return (
@@ -27,10 +29,16 @@ function App() {
               With our teachers who write a program for each student, you will be able to make your
               first sketch after the first lesson.
             </p>
-            <Button text="Get started" size='l' />
+            <Button text="Get started" size="m" />
           </div>
           <MainSvg />
         </section>
+      </div>
+      <div className={styles.container}>
+        <Skills />
+      </div>
+      <div className={styles.container}>
+        <About />
       </div>
     </>
   )
