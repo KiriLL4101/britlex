@@ -7,6 +7,7 @@ import { ReactComponent as MainSvg } from './assets/main.svg'
 import styles from './app.module.css'
 import { Skills } from './component/Skills/Skills'
 import { About } from './component/About/About'
+import { Pricing } from './component/Pricing/Pricing'
 
 function App() {
   return (
@@ -39,6 +40,9 @@ function App() {
       </div>
       <div className={styles.container}>
         <About />
+      </div>
+      <div className={styles.container}>
+        <Pricing />
       </div>
     </>
   )
