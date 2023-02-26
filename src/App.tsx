@@ -9,6 +9,7 @@ import { Skills } from './component/Skills/Skills'
 import { About } from './component/About/About'
 import { Pricing } from './component/Pricing/Pricing'
 import { Contact } from './component/Contact/Contact'
+import { Footer } from './component/Footer/Footer'
 
 function App() {
   return (
@@ -47,6 +48,9 @@ function App() {
       </div>
       <div className={styles.container}>
         <Contact />
+      </div>
+      <div className={styles.container}>
+        <Footer />
       </div>
     </>
   )
