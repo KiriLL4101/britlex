@@ -8,6 +8,7 @@ import styles from './app.module.css'
 import { Skills } from './component/Skills/Skills'
 import { About } from './component/About/About'
 import { Pricing } from './component/Pricing/Pricing'
+import { Contact } from './component/Contact/Contact'
 
 function App() {
   return (
@@ -43,6 +44,9 @@ function App() {
       </div>
       <div className={styles.container}>
         <Pricing />
+      </div>
+      <div className={styles.container}>
+        <Contact />
       </div>
     </>
   )
