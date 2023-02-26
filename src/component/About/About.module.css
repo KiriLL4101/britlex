@@ -1,0 +1,48 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+}
+
+.root > * {
+  flex: 1;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.about h2 {
+  font-weight: 600;
+  font-size: 48px;
+  color: #000000;
+}
+
+.about p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #8f95a5;
+
+  margin-bottom: 15px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+  
+  justify-items: center;
+}
+
+.stats span {
+  font-weight: 600;
+  font-size: 48px;
+  color: #2a3246;
+}
+
+.stats p {
+  font-size: 20px;
+  color: #8f95a5;
+}
