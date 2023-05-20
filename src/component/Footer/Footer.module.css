@@ -19,7 +19,7 @@
   position: relative;
 
   font-size: 24px;
-  color: #8f95a5;
+  color: #var(--text-color-grey);
 }
 
 .nav li:not(:last-child)::before {

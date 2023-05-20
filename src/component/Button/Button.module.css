@@ -7,7 +7,7 @@
 }
 
 .primary {
-  color: #ffffff;
+  color: var(--text-color-light);
   background: #263238;
   border-radius: 15px;
   border: none;
@@ -15,7 +15,7 @@
 
 .secondary {
   background: #e5e5e5;
-  color: #000000;
+  color: var(--text-color-dark);
   border: 2px solid #263238;
   border-radius: 5px;
 }

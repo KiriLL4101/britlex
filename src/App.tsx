@@ -1,25 +1,20 @@
-import { Button } from './component/Button/Button'
-import { Menu } from './component/Menu/Menu'
-
-import { ReactComponent as LogoSvg } from './assets/main-logo.svg'
-import { ReactComponent as MainSvg } from './assets/main.svg'
-
-import styles from './app.module.css'
 import { Skills } from './component/Skills/Skills'
 import { About } from './component/About/About'
 import { Pricing } from './component/Pricing/Pricing'
 import { Contact } from './component/Contact/Contact'
 import { Footer } from './component/Footer/Footer'
+import { Header } from './component/Header/Header'
+import { Button } from './component/Button/Button'
+
+import { ReactComponent as MainSvg } from './assets/main.svg'
+
+import styles from './app.module.css'
 
 function App() {
   return (
     <>
       <div className={styles.container}>
-        <header className={styles.header}>
-          <LogoSvg />
-          <Menu />
-          <Button text="Let’s Talk" variant="secondary" />
-        </header>
+        <Header />
       </div>
       <div className={styles.container}>
         <section className={styles.block}>

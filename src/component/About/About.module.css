@@ -18,13 +18,13 @@
 .about h2 {
   font-weight: 600;
   font-size: 48px;
-  color: #000000;
+  color: var(--text-color-dark);
 }
 
 .about p {
   font-size: 20px;
   line-height: 30px;
-  color: #8f95a5;
+  color: #var(--text-color-grey);
 
   margin-bottom: 15px;
 }
@@ -45,5 +45,5 @@
 
 .stats p {
   font-size: 20px;
-  color: #8f95a5;
+  color: #var(--text-color-grey);
 }

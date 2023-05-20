@@ -17,14 +17,14 @@
 .wrapper h2 {
   font-weight: 600;
   font-size: 48px;
-  color: #000000;
+  color: var(--text-color-dark);
 }
 
 .wrapper p {
   font-size: 20px;
   line-height: 30px;
 
-  color: #8f95a5;
+  color: #var(--text-color-grey);
 }
 
 .wrapper form {
@@ -35,7 +35,7 @@
 .wrapper form input {
   border: 1px solid #8f95a5;
   border-radius: 10px;
-  color: #8f95a5;
+  color: #var(--text-color-grey);
   flex: 1;
 
   font-size: 16px;
